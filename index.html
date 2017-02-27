@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Subaru Pricing - 2017</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/date.js" charset="utf-8"></script>
+    <script src="js/master.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#" class="navLink" data-section="generalSection">General</a></li>
+          <li><a href="#" class="navLink" data-section="vehicleSection">Vehicle</a></li>
+          <li><a href="#" class="navLink" data-section="accessoriesSection">Accessories</a></li>
+          <li><a href="#" class="navLink" data-section="packagesSection">Packages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="builder">
+
+      <div id="workspace">
+        <!-- General Section -->
+        <div class="sectionStyle" id="generalSection">
+          <h1 class="sectionHeadingText">General Info</h1>
+          <div class="inputSections">
+            <input type="text" name="customerName" placeholder="Customer Name" id="customerName"><label for="customerName"></label>
+          </div>
+          <h2>Finance Info</h2>
+          <div class="inputSections">
+            <input type="text" name="vehicleFinPrice" placeholder="Vehicle Price" id="vehicleFinPrice"><label for="vehiclePrice"></label>
+          </div>
+          <div class="inputSections">
+            <input type="text" name="priceGoodUntil" placeholder="Price Good Until" id="priceGoodUntil"><label for="priceGoodUntil"></label>
+          </div>
+          <h2>Lease Info</h2>
+          <div class="inputSections">
+            <input type="text" name="leasePrice" value='' placeholder="Lease Price" id="leasePrice"><label for="leasePrice"></label>
+          </div>
+          <div class="inputSections">
+            <input type="text" name="term" value='' placeholder="Term" id="term"><label for="term"></label>
+          </div>
+          <div class="inputSections">
+            <input type="text" name="moneyDown" value='' placeholder="Money Down" id="moneyDown"><label for="moneyDown"></label>
+          </div>
+          <div class="inputSections">
+            <input type="text" name="mileage" value='' placeholder="Mileage" id="mileage"><label for="mileage"></label>
+          </div>
+        </div>
+        <div class="sectionStyle" id="vehicleSection">
+          <h1 class="sectionHeadingText">Vehicle Info</h1>
+          <!-- Vehicle Section -->
+          <div id="vehicleBuilder">
+            <!-- Vehicle Section Header -->
+            <div id="vehicleMenu">
+              <h2 id="vehicleMenuHeader">2017 Vehicles</h2>
+              <button type="button" name="reset"  id="reset"><img src="inc/refresh.svg" alt="reset button"></button>
+            </div>
+            <!-- Vehicle Select -->
+            <div id="vehicleSelection">
+
+            </div>
+          </div>
+          <div id="transSection">
+            <h2>Transmission</h2>
+            <input type="radio" name="transmission" value="Automatic" id="automaticRadio" checked  class="transmissionSelect"><label for="automaticRadio">Automatic</label>
+            <input type="radio" name="transmission" value="Manual" id="manualRadio"  class="transmissionSelect"><label for="manualRadio">Manual</label>
+          </div>
+        </div>
+
+        <div class="sectionStyle" id="accessoriesSection">
+          <h1 class="sectionHeadingText">Accessories Select</h1>
+          <div id="accessories">
+            <!-- Accessories go here -->
+          </div>
+        </div>
+
+        <div class="sectionStyle" id="packagesSection">
+          <h1 class="sectionHeadingText">Packages Select</h1>
+          <div id="packages">
+            <!-- Packages go here -->
+          </div>
+        </div>
+      </div>
+
+    <!--    WORKSPACE / PREVIEW      -->
+
+      <div id="preview">
+        <div id="pricePreview">
+          <p style="color:#ffffff;padding:20px 50px 0 50px;font-size: 18px;">Hello <span id="customerNameDisplay"></span>,</p>
+          <p style="color:#ffffff;padding:0 50px 0 50px;font-size:18px;">Thank you for your interest in the 2017 Subaru <span id="vehicleRef1">No Vehicle Selected</span> from Ramsey Subaru.
+                  Here&#39;s a price for the Subaru <span id="vehicleRef2">No Vehicle Selected</span> (available until <span id="availableUntilDisplay"></span>)<br><br>
+
+                </p>
+          <table id="pricingTable" style="margin: 0 auto;padding: 20px 0;border: 0;width: 650px;font-size: 18px;">
+            <tr>
+              <td id="vehicleInfoDisplay" style="width: 350px">
+                <h4 style="margin: 0;padding: 0 0 0 50px;border: 0;line-height: 1;color: #fafafa;font-family: Arial, sans-serif;font-weight: 900;">2017 Subaru</h4>
+                <h2 id="vehiclePreview" style="margin: 0;padding: 5px 0 5px 50px;border: 0;line-height: 1;color: #fafafa;font-family: Arial, sans-serif;font-weight: 700;font-size: 20px;">No Vehicle Selected</h2>
+
+                <h5 style="margin: 0;padding: 5px 0 0 50px;border: 0;line-height: 1.2;color: #fafafa;font-family: Arial, sans-serif;font-weight: 500;fontsize: 14px;">
+                  <span id="packagesDisplayHeading"></span>
+                  <span id="packagesDisplay"></span>
+                </h5>
+                <h5 id="transmissionDisplay" style="margin: 0;padding: 5px 0 0 50px;border: 0;line-height: 1;color: #fafafa;font-family: Arial, sans-serif;font-weight: 500;fontsize: 14px;"><strong>Transmission:</strong> Automatic</h5>
+                <div id="imgPreview">
+                  <img src="inc/fill.png" style="width: 325px;padding: 0;margin: 0;border: 0;">
+                </div>
+              </td>
+              <td id="pricingDisplay" style="width: 350px;vertical-align: top;text-align: right;margin: 0;border: 0;padding: 0;">
+                <div>
+                  <h4 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 14px;">Your Quote</h4>
+                  <span id="finPrice"></span>
+                  <span id="orDisplay"></span>
+                  <span id="leasePriceDisplay"></span>
+                  <span id="termDisplay"></span>
+                  <span id="moneyDownDisplay"></span>
+                  <span id="mileageDisplay"></span>
+
+
+                  <span id="accessoriesDisplayHeading"></span>
+                  <ul id="accessoriesDisplay">
+
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div id="contactButtons" style="width: 650px;margin:0 auto;padding:0;border:0; text-align:center;">
+            <a href="#" style="text-decoration: none;color: #ffffff;border: 1px solid #ffffff;padding: 15px 25px;font-family: Arial, sans-serif;margin: 0 10px;" id="brochureLink">MORE INFORMATION</a><a href="tel:2013270070" style="text-decoration: none;color: #ffffff;border: 1px solid #ffffff;padding: 15px 54px;font-family: Arial, sans-serif;margin: 0 0 0 60px;">CONTACT US</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Target -->
+    <textarea id="templateCopy"></textarea>
+
+    <!-- Trigger -->
+    <button class="btn" id="copyButton" data-clipboard-action="copy" data-clipboard-target="#templateCopy">
+    Copy
+    </button>
+    <script src="js/clipboard.min.js" charset="utf-8"></script>
+    <script>
+    const partOne = `<!DOCTYPE html>
+    <html style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+      <head>
+        <meta charset="utf-8">
+      </head>
+      <body style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;line-height: 1;">
+        <center>
+            <div id="bodyContainer" style="margin: 0 auto;padding: 50px 0;border: 0;font-size: 13px;vertical-align: baseline;height: 100%;width: 100%;font-family: Arial, sans-serif;font-weight: normal;color: #333132;background-color: #20609F;">
+              <table id="emailBody" style="margin: auto;padding: 0px;border: 0;font-size: 100%;vertical-align: baseline;border-collapse: collapse;border-spacing: 0;width: 650px;color: #ffffff;background-color: #ffffff;">
+                <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+                  <td style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+                    <table id="headerArea" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;border-collapse: collapse;border-spacing: 0;background-color: #333333;width: 650px;">
+                      <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+                        <td class="centered" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;text-align: center;">
+                          <a href="http://www.ramseysubaru.net/" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/ramseyLogo.png" alt="Ramsey Subaru" id="subaruLogo" style="margin: auto;padding: 20px 0;border: 0;font-size: 100%;vertical-align: baseline;width: 150px;text-align: center;"></a>
+                        </td>
+                      </tr>
+                      <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+                        <td class="centered" id="menu" style="margin: 0;padding: 15px 0;border: 0;font-size: 100%;vertical-align: baseline;text-align: center;background-color: #ffffff;color: #000000;">
+                          <ul style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;">
+                            <li style="margin: 0;padding: 0 10px;border: 0;font-size: 100%;vertical-align: baseline;display: inline;"><a href="http://www.ramseysubaru.net/managers-specials.htm" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;text-decoration: none;color: #000000;font-weight: 600;">MANAGER'S SPECIALS</a></li>
+                            <li style="margin: 0;padding: 0 10px;border: 0;font-size: 100%;vertical-align: baseline;display: inline;"><a href="http://www.ramseysubaru.net/managers-demo-special.htm" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;text-decoration: none;color: #000000;font-weight: 600;">DEMO SPECIALS</a></li>
+                            <li style="margin: 0;padding: 0 10px;border: 0;font-size: 100%;vertical-align: baseline;display: inline;"><a href="http://www.ramseysubaru.net/used-special.htm" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;text-decoration: none;color: #000000;font-weight: 600;">PREOWNED SPECIALS</a></li>
+                          </ul>
+                        </td>
+                      </tr>
+
+
+                    </table>
+                  </td>
+                </tr>
+                <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+                  <td style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+                    <table id="emailContent" style="margin: 0 auto;padding: 20px;border: 0;font-size: 100%;vertical-align: baseline;border-collapse: collapse;border-spacing: 0;background-color: #333333;color: #ffffff;width: 650px;">
+                      <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+                        <td style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+
+                          `;
+      // User format as follows - Name, Title, Extension, Email
+      let userCheck = window.location.href;
+      let userChecked = userCheck.substr(-6);
+      var emailContentRenderer = '';
+      $('#copyButton').click(function(){
+        emailContentRenderer = document.getElementById('preview').innerHTML;
+      });
+      const users = [
+                    ['Ramsey Subaru E-Commerce Team','E-Commerce Department','','wecare@ramseysubaru.net'],
+                    ['Robert Wood','E-Commerce Manager',' x 5218','rwood@ramseysubaru.net'],
+                    ['Bailey Kasbarian','E-Commerce Associate',' x 5230','bkasbarian@ramseysubaru.net'],
+                    ['Manny Justafort','E-Commerce Associate',' x 5224','ejustafort@ramseysubaru.net'],
+                    ['Megan Previdi','E-Commerce Associate',' x 5223','mprevidi@ramseysubaru.net']
+                    ];
+      let signature;
+      if (userChecked === 'rwood/') {
+        signature =
+        `${users[1][0]}<br>
+        ${users[1][1]}<br>
+        Ramsey Subaru<br>
+        (201)327-0070${users[1][2]}<br>
+        ${users[1][3]}`;
+      } else if (userChecked === 'bkasb/') {
+        signature = `
+        ${users[2][0]}<br>
+        ${users[2][1]}<br>
+        Ramsey Subaru<br>
+        (201)327-0070${users[2][2]}<br>
+        ${users[2][3]}
+        `;
+      } else if (userChecked === 'ejust/') {
+        signature = `
+        ${users[3][0]}<br>
+        ${users[3][1]}<br>
+        Ramsey Subaru<br>
+        (201)327-0070${users[3][2]}<br>
+        ${users[3][3]}
+        `;
+      } else if (userChecked === 'mprev/') {
+        signature = `
+        ${users[4][0]}<br>
+        ${users[4][1]}<br>
+        Ramsey Subaru<br>
+        (201)327-0070${users[4][2]}<br>
+        ${users[4][3]}
+        `;
+      } else {
+        signature = `
+        ${users[0][0]}<br>
+        ${users[0][1]}<br>
+        Ramsey Subaru<br>
+        (201)327-0070${users[0][2]}<br>
+        ${users[0][3]}
+        `;
+      }
+
+      const partTwo = `<p style="margin: 0;padding: 30px 40px 10px 40px;border: 0;font-size: 18px;vertical-align: baseline;line-height: 1.5;text-align: left;">
+        <br>
+        Sincerely, <br>
+        <br>
+        ${signature}
+        <br>
+        <br>
+      </p>
+    </td>
+    </tr>
+    <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+    <td id="spacer" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;background-color: #ffffff;height: 1px;">
+
+    </td>
+    </tr>
+    <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
+    <td id="footer" style="margin: 0;padding: 30px;border: 0;font-size: 100%;vertical-align: baseline;text-align: center;">
+      <ul style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;">
+        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="https://www.facebook.com/RamseySubaru/" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/facebookIcon.png" alt="facebook" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
+        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="https://twitter.com/RamseySubaruNJ" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/twitterIcon.png" alt="twitter" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
+        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="https://www.youtube.com/ramseysubaru" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/youtubeIcon.png" alt="youtube" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
+        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="https://www.instagram.com/ramseysubaru/" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/instagramIcon.png" alt="instagram" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
+      </ul>
+      <br>
+      <a href="http://www.ramseysubaru.net/" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;">Ramsey Subaru</a>
+      <br>
+      <a href="http://www.ramseysubaru.net/dealership/directions.htm" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;">905 Rt17s Ramsey, NJ</a>
+      <br>
+      <a href="tel:2013270070" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;">201.327.0070</a>
+      <br>
+      <br>
+
+
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+
+    </div>
+    </center>
+    </body>
+    </html>
+    `;
+
+    $('#templateCopy').val(partOne + emailContentRenderer + partTwo);
+   var btns = document.querySelectorAll('button');
+   var clipboard = new Clipboard(btns);
+   clipboard.on('success', function(e) {
+       console.log(e);
+   });
+   clipboard.on('error', function(e) {
+       console.log(e);
+   });
+   </script>
+  </body>
+</html>
