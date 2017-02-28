@@ -673,7 +673,7 @@ const packagesArray = [
 
     const orCheck = function() {
       if (document.getElementById('vehicleFinPrice').value !== '' && document.getElementById('leasePrice').value !== '') {
-        document.querySelector('#orDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 18px;">or</h4>`;
+        document.querySelector('#orDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #000000;font-size: 18px;">or</h4>`;
       } else {
         document.querySelector('#orDisplay').innerHTML = '';
       }
@@ -691,7 +691,7 @@ const packagesArray = [
     // Writes input vehicle finance price to template
     $('#vehicleFinPrice').on('input',function(e){
       if (document.getElementById('vehicleFinPrice').value !== '') {
-        document.querySelector('#finPrice').innerHTML = `<h1 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 700;color: #ffffff;" id="">$${this.value}</h1>`;
+        document.querySelector('#finPrice').innerHTML = `<h1 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 700;color: #000000;" id="">$${this.value}</h1>`;
 
       } else {
           document.querySelector('#finPrice').innerHTML = '';
@@ -717,7 +717,7 @@ const packagesArray = [
   // Writes input vehicle price expiration to template
   $('#leasePrice').on('input',function(e){
     if (document.getElementById('leasePrice').value !== '') {
-      document.querySelector('#leasePriceDisplay').innerHTML = `<h1 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 700;color: #ffffff;" id="">$${this.value}/mo</h1>`;
+      document.querySelector('#leasePriceDisplay').innerHTML = `<h1 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 700;color: #000000;" id="">$${this.value}/mo</h1>`;
 
     } else {
         document.querySelector('#leasePriceDisplay').innerHTML = '';
@@ -727,7 +727,7 @@ const packagesArray = [
   // Writes input vehicle price expiration to template
   $('#term').on('input',function(e){
     if (document.getElementById('term').value !== '') {
-      document.querySelector('#termDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 18px;">for ${this.value} months</h4>`;
+      document.querySelector('#termDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #000000;font-size: 18px;">for ${this.value} months</h4>`;
     } else {
         document.querySelector('#termDisplay').innerHTML = '';
       }
@@ -737,7 +737,7 @@ const packagesArray = [
   // Writes input vehicle price expiration to template
   $('#moneyDown').on('input',function(e){
     if (document.getElementById('moneyDown').value !== '') {
-      document.querySelector('#moneyDownDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 18px;">$${this.value} down</h4>`;
+      document.querySelector('#moneyDownDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #000000;font-size: 18px;">$${this.value} down</h4>`;
     } else {
       document.querySelector('#moneyDownDisplay').innerHTML = '';
     }
@@ -745,7 +745,7 @@ const packagesArray = [
   // Writes input vehicle price expiration to template
   $('#mileage').on('input',function(e){
     if (document.getElementById('mileage').value !== '') {
-      document.querySelector('#mileageDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #ffffff;font-size: 14px;">${this.value} miles per year</h4>`;
+      document.querySelector('#mileageDisplay').innerHTML = `<h4 style="text-align: right;margin: 0;border: 0;padding: 5px 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #000000;font-size: 14px;">${this.value} miles per year</h4>`;
     } else {
         document.querySelector('#mileageDisplay').innerHTML = '';
       }
@@ -772,7 +772,7 @@ const packagesArray = [
         if (this.checked === true) {
           // Writes The Accessory Value of Checked item to Page
           console.log(this.value);
-          $('#accessoriesDisplay').append(`<li id="accessory${tempID}" style="color: #ffffff;text-align:left;margin: 0 0 0 30px;font-size:14px;">${this.value}</li>`);
+          $('#accessoriesDisplay').append(`<li id="accessory${tempID}" style="color: #000000;text-align:left;margin: 0 0 0 30px;font-size:14px;">${this.value}</li>`);
         } else {
           // Removes Selected Accessory Item from page
             $('#accessory' + tempID).remove();
@@ -780,7 +780,7 @@ const packagesArray = [
         if (document.getElementById('accessoriesDisplay').innerHTML.replace(/-|\&amp;|\&|\.|\s+/g, '') === '') {
           document.querySelector('#accessoriesDisplayHeading').innerHTML = '';
         } else {
-          document.querySelector('#accessoriesDisplayHeading').innerHTML = `<h3 style="text-align:left;color:#fafafa;font-size:16px">Accessories:</h3>`;
+          document.querySelector('#accessoriesDisplayHeading').innerHTML = `<h3 style="text-align:left;color:#000000;font-size:16px">Accessories:</h3>`;
         }
     });
   });
