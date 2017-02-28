@@ -3556,6 +3556,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/inc\/volvoLogo.png": {
+		"ft": 32768,
+		"iS": 10838,
+		"oA": 0,
+		"oAP": "\/inc\/volvoLogo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/inc\/XC60\/dynamic\/t5Awd\/blackStone.jpg": {
 		"ft": 16384,
 		"iS": 90508,
@@ -4837,6 +4845,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/test.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test.html",
+		"oF": 0
 		}
 	},
 "hooks": [

@@ -181,7 +181,7 @@ const packagesArray = [
 
 
     // Vehicles Array -------------------------------------------------------------------------
-    const volvoVehicleArray = ['S60','S60CC','S90','V60','V60CC','V90','V90CC','XC60','XC90'];
+    const volvoVehicleArray = ['S60','S60 Cross Country','S90','V60','V60 Cross Country','V90','V90 Cross Country','XC60','XC90'];
 
     const volvoS60Trim = ['T5 Dynamic FWD','T5 Dynamic AWD','T5 Inscription FWD','T5 Inscription AWD','T5 Inscription Platinum FWD','T5 Inscription Platinum AWD','R-Design'];
     const volvoS60CrossCountryTrim = ['T5 AWD'];
@@ -196,11 +196,11 @@ const packagesArray = [
 
 
     const S60T5DynamicFWD = [
-      [electricSilverWhite,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd.jpg',brochureArray[0]],
-      [iceWhite,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd.jpg',brochureArray[0]],
-      [onyxBlackMetallic,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd.jpg',brochureArray[0]],
-      [osmiumGreyMetallic,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd.jpg',brochureArray[0]],
-      [passionRed,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd.jpg',brochureArray[0]]
+      [electricSilverWhite,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd/electricSilverWhite.jpg',brochureArray[0]],
+      [iceWhite,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd/iceWhite.jpg',brochureArray[0]],
+      [onyxBlackMetallic,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd/onyxBlackMetallic.jpg',brochureArray[0]],
+      [osmiumGreyMetallic,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd/osmiumGreyMetallic.jpg',brochureArray[0]],
+      [passionRed,'S60 T5 Dynamic FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Fwd/passionRed.jpg',brochureArray[0]]
     ];
     const S60T5DynamicAWD = [
       [electricSilverWhite,'S60 T5 Dynamic AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/dynamic/t5Awd/electricSilverWhite.jpg',brochureArray[0]],
@@ -230,24 +230,24 @@ const packagesArray = [
       [osmiumGreyMetallic,'S60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscription/t5InscriptionAwd/osmiumGreyMetallic.jpg',brochureArray[0]]
     ];
     const S60T5InscriptionPlatinumFWD = [
-      [brightSilverMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/brightSilverMetallic.jpg',brochureArray[0]],
-      [crystalWhitePearl,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/crystalWhitePearl.jpg',brochureArray[0]],
-      [flamencoRedMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/flamencoRedMetallic.jpg',brochureArray[0]],
-      [iceWhite,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/iceWhite.jpg',brochureArray[0]],
-      [luminousSandMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/luminousSandMetallic.jpg',brochureArray[0]],
-      [musselBlueMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/musselBlueMetallic.jpg',brochureArray[0]],
-      [onyxBlackMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/onyxBlackMetallic.jpg',brochureArray[0]],
-      [osmiumGreyMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5Inscription/osmiumGreyMetallic.jpg',brochureArray[0]]
+      [brightSilverMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/brightSilverMetallic.jpg',brochureArray[0]],
+      [crystalWhitePearl,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/crystalWhitePearl.jpg',brochureArray[0]],
+      [flamencoRedMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/flamencoRedMetallic.jpg',brochureArray[0]],
+      [iceWhite,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/iceWhite.jpg',brochureArray[0]],
+      [luminousSandMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/luminousSandMetallic.jpg',brochureArray[0]],
+      [musselBlueMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/musselBlueMetallic.jpg',brochureArray[0]],
+      [onyxBlackMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/onyxBlackMetallic.jpg',brochureArray[0]],
+      [osmiumGreyMetallic,'S60 T5 Inscription Platinum FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5Inscription/osmiumGreyMetallic.jpg',brochureArray[0]]
     ];
     const S60T5InscriptionPlatinumAWD = [
-      [brightSilverMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/brightSilverMetallic.jpg',brochureArray[0]],
-      [crystalWhitePearl,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/crystalWhitePearl.jpg',brochureArray[0]],
-      [flamencoRedMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/flamencoRedMetallic.jpg',brochureArray[0]],
-      [iceWhite,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/iceWhite.jpg',brochureArray[0]],
-      [luminousSandMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/luminousSandMetallic.jpg',brochureArray[0]],
-      [musselBlueMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/musselBlueMetallic.jpg',brochureArray[0]],
-      [onyxBlackMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/onyxBlackMetallic.jpg',brochureArray[0]],
-      [osmiumGreyMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatium/t5InscriptionAwd/osmiumGreyMetallic.jpg',brochureArray[0]]
+      [brightSilverMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/brightSilverMetallic.jpg',brochureArray[0]],
+      [crystalWhitePearl,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/crystalWhitePearl.jpg',brochureArray[0]],
+      [flamencoRedMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/flamencoRedMetallic.jpg',brochureArray[0]],
+      [iceWhite,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/iceWhite.jpg',brochureArray[0]],
+      [luminousSandMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/luminousSandMetallic.jpg',brochureArray[0]],
+      [musselBlueMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/musselBlueMetallic.jpg',brochureArray[0]],
+      [onyxBlackMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/onyxBlackMetallic.jpg',brochureArray[0]],
+      [osmiumGreyMetallic,'S60 T5 Inscription Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/inscriptionPlatinum/t5InscriptionAwd/osmiumGreyMetallic.jpg',brochureArray[0]]
     ];
     const S60RDesign = [
       [crystalWhitePearl,'S60 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/S60/rdesign/crystalWhitePearl.jpg',brochureArray[0]],
@@ -620,10 +620,11 @@ const packagesArray = [
       document.querySelector('#vehicleMenuHeader').innerHTML = `2017 Vehicles`;
       for (let i = 0; i < volvoVehicleArray.length; i++) {
         document.querySelector('#vehicleSelection').innerHTML +=
-        `<a href="#" class="vehicleSelectButton" id="${volvoVehicleArray[i]}">${volvoVehicleArray[i]}</a>`
+        `<a href="#" class="vehicleSelectButton" id="${volvoVehicleArray[i].replace(/\s+/g, "")}">${volvoVehicleArray[i]}</a>`
       }
       // Displays trims for selected vehicle
       $('.vehicleSelectButton').click(function(e) {
+        console.log(this.id);
         e.preventDefault();
         let selectedVehicle = this.id;
         let trimArraySelector = 'volvo' + selectedVehicle + 'Trim';
@@ -632,7 +633,7 @@ const packagesArray = [
         document.querySelector('#vehicleMenuHeader').innerHTML = `2017 ${selectedVehicle} Trims`;
         for (let i = 0; i < eval(trimArraySelector).length; i++) {
             document.querySelector('#vehicleSelection').innerHTML +=
-            `<a href="#" class="trimSelectButton" id="${selectedVehicle + eval(trimArraySelector)[i].replace(/\s+/, "")}">${selectedVehicle + ' ' + eval(trimArraySelector)[i]}</a>`
+            `<a href="#" class="trimSelectButton" id="${selectedVehicle + eval(trimArraySelector)[i].replace(/\s+/g, "")}">${selectedVehicle + ' ' + eval(trimArraySelector)[i]}</a>`
         }
         // Displays colors for selected vehicle trim
         $('.trimSelectButton').click(function(e) {
