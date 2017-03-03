@@ -750,6 +750,10 @@ const packagesArray = [
         document.querySelector('#mileageDisplay').innerHTML = '';
       }
   });
+  // Writes input stock number to template
+   $('#stock').on('input',function(e){
+   document.querySelector('#stockDisplay').innerHTML ='Stock Number: ' + this.value;
+  });
 
 
 
