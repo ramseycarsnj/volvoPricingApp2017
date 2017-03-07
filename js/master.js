@@ -569,41 +569,41 @@ const packagesArray = [
       [twilightBronzeMetallic,'XC90 T8 Inscription','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/inscription/t8/twilightBronzeMetallic.jpg',brochureArray[6]]
     ];
     const XC90T5RDesignFWD = [
-      [burstingBlueMetallic,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Fwd/burstingBlueMetallic.jpg',brochureArray[6]],
-      [crystalWhitePearl,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Fwd/crystalWhitePearl.jpg',brochureArray[6]],
-      [electricSilverWhite,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Fwd/electricSilverWhite.jpg',brochureArray[6]],
-      [onyxBlackMetallic,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Fwd/onyxBlackMetallic.jpg',brochureArray[6]],
-      [osmiumGreyMetallic,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Fwd/osmiumGreyMetallic.jpg',brochureArray[6]],
-      [passionRed,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Fwd/passionRed.jpg',brochureArray[6]]
+      [burstingBlueMetallic,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Fwd/burstingBlueMetallic.jpg',brochureArray[6]],
+      [crystalWhitePearl,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Fwd/crystalWhitePearl.jpg',brochureArray[6]],
+      [electricSilverWhite,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Fwd/electricSilverMetallic.jpg',brochureArray[6]],
+      [onyxBlackMetallic,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Fwd/onyxBlackMetallic.jpg',brochureArray[6]],
+      [osmiumGreyMetallic,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Fwd/osmiumGreyMetallic.jpg',brochureArray[6]],
+      [passionRed,'XC90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Fwd/passionRed.jpg',brochureArray[6]]
     ];
     const XC90T5RDesignAWD = [
-      [burstingBlueMetallic,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Awd/burstingBlueMetallic.jpg',brochureArray[6]],
-      [crystalWhitePearl,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Awd/crystalWhitePearl.jpg',brochureArray[6]],
-      [electricSilverWhite,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Awd/electricSilverWhite.jpg',brochureArray[6]],
-      [onyxBlackMetallic,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Awd/onyxBlackMetallic.jpg',brochureArray[6]],
-      [osmiumGreyMetallic,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Awd/osmiumGreyMetallic.jpg',brochureArray[6]],
-      [passionRed,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t5Awd/passionRed.jpg',brochureArray[6]]
+      [burstingBlueMetallic,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Awd/burstingBlueMetallic.jpg',brochureArray[6]],
+      [crystalWhitePearl,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Awd/crystalWhitePearl.jpg',brochureArray[6]],
+      [electricSilverWhite,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Awd/electricSilverMetallic.jpg',brochureArray[6]],
+      [onyxBlackMetallic,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Awd/onyxBlackMetallic.jpg',brochureArray[6]],
+      [osmiumGreyMetallic,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Awd/osmiumGreyMetallic.jpg',brochureArray[6]],
+      [passionRed,'XC90 T5 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t5Awd/passionRed.jpg',brochureArray[6]]
     ];
     const XC90T6RDesignAWD = [
-      [burstingBlueMetallic,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t6Awd/burstingBlueMetallic.jpg',brochureArray[6]],
-      [crystalWhitePearl,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t6Awd/crystalWhitePearl.jpg',brochureArray[6]],
-      [electricSilverWhite,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t6Awd/electricSilverWhite.jpg',brochureArray[6]],
-      [onyxBlackMetallic,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t6Awd/onyxBlackMetallic.jpg',brochureArray[6]],
-      [osmiumGreyMetallic,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t6Awd/osmiumGreyMetallic.jpg',brochureArray[6]],
-      [passionRed,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t6Awd/passionRed.jpg',brochureArray[6]]
+      [burstingBlueMetallic,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t6Awd/burstingBlueMetallic.jpg',brochureArray[6]],
+      [crystalWhitePearl,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t6Awd/crystalWhitePearl.jpg',brochureArray[6]],
+      [electricSilverWhite,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t6Awd/electricSilverMetallic.jpg',brochureArray[6]],
+      [onyxBlackMetallic,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t6Awd/onyxBlackMetallic.jpg',brochureArray[6]],
+      [osmiumGreyMetallic,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t6Awd/osmiumGreyMetallic.jpg',brochureArray[6]],
+      [passionRed,'XC90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t6Awd/passionRed.jpg',brochureArray[6]]
     ];
     const XC90T8RDesign = [
-      [burstingBlueMetallic,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t8/burstingBlueMetallic.jpg',brochureArray[6]],
-      [crystalWhitePearl,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t8/crystalWhitePearl.jpg',brochureArray[6]],
-      [electricSilverWhite,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t8/electricSilverWhite.jpg',brochureArray[6]],
-      [onyxBlackMetallic,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t8/onyxBlackMetallic.jpg',brochureArray[6]],
-      [osmiumGreyMetallic,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t8/osmiumGreyMetallic.jpg',brochureArray[6]],
-      [passionRed,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/rdesign/t8/passionRed.jpg',brochureArray[6]]
+      [burstingBlueMetallic,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t8/burstingBlueMetallic.jpg',brochureArray[6]],
+      [crystalWhitePearl,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t8/crystalWhitePearl.jpg',brochureArray[6]],
+      [electricSilverWhite,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t8/electricSilverMetallic.jpg',brochureArray[6]],
+      [onyxBlackMetallic,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t8/onyxBlackMetallic.jpg',brochureArray[6]],
+      [osmiumGreyMetallic,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t8/osmiumGreyMetallic.jpg',brochureArray[6]],
+      [passionRed,'XC90 T8 R-Design','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC90/rdesign/t8/passionRed.jpg',brochureArray[6]]
     ];
     const XC90T8Excellence = [
       [burstingBlueMetallic,'XC90 T8 Excellence','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/excellence/t8/burstingBlueMetallic.jpg',brochureArray[6]],
       [crystalWhitePearl,'XC90 T8 Excellence','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/excellence/t8/crystalWhitePearl.jpg',brochureArray[6]],
-      [electricSilverWhite,'XC90 T8 Excellence','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/excellence/t8/electricSilverWhite.jpg',brochureArray[6]],
+      [electricSilverWhite,'XC90 T8 Excellence','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/excellence/t8/electricSilverMetallic.jpg',brochureArray[6]],
       [iceWhite,'XC90 T8 Excellence','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/excellence/t8/iceWhite.jpg',brochureArray[6]],
       [luminousSandMetallic,'XC90 T8 Excellence','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/excellence/t8/luminousSandMetallic.jpg',brochureArray[6]],
       [magicBlueMetallic,'XC90 T8 Excellence','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/excellence/t8/magicBlueMetallic.jpg',brochureArray[6]],
