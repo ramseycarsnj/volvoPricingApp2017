@@ -753,6 +753,10 @@ const packagesArray = [
     $('.transmissionSelect').click(function(){
       document.querySelector('#transmissionDisplay').innerHTML = `<strong>Transmission:</strong> ${this.value}`;
     });
+    // Write vehicle status to template
+    $('.statusSelect').click(function(){
+      document.querySelector('#statusDisplay').innerHTML = `${this.value}`;
+    });
     // Writes input vehicle finance price to template
     $('#customerName').on('input',function(e){
     document.querySelector('#customerNameDisplay').innerHTML = this.value;
