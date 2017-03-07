@@ -168,6 +168,10 @@ const packagesArray = [
     const luminousSandMetallic = 'Luminous Sand Metallic';
     const twilightBronzeMetallic = 'Twilight Bronze Metallic';
     const richJavaMetallic = 'Rich Java Metallic';
+    const crystalWhiteMetallic = 'Crystal White Metallic';
+    const denimBlueMetallic = 'Denim Blue Metallic';
+    const mapleBrownMetallic = 'Maple Bown Metallic';
+    const electricSilverMetallic = 'Electric Silver Metallic';
 
     const brochureArray = [
       'http://www.volvocarsramsey.com/showroom/2017/Volvo/S60/Sedan.htm',
@@ -176,7 +180,8 @@ const packagesArray = [
       'http://www.volvocarsramsey.com/showroom/2017/Volvo/V60/Wagon.htm',
       'http://www.volvocarsramsey.com/showroom/2017/Volvo/V60+Cross+Country/Wagon.htm',
       'http://www.volvocarsramsey.com/showroom/2017/Volvo/XC60/SUV.htm',
-      'http://www.volvocarsramsey.com/showroom/2017/Volvo/XC90/SUV.htm'
+      'http://www.volvocarsramsey.com/showroom/2017/Volvo/XC90/SUV.htm',
+      'http://www.volvocarsramsey.com/showroom/2017/Volvo/V90+Cross+Country/Wagon.htm'
     ];
 
 
@@ -188,7 +193,7 @@ const packagesArray = [
     const volvoS90Trim = ['T5 Inscription FWD','T6 Inscription AWD','T5 Momentum FWD','T6 Momentum AWD'];
     const volvoV60Trim = ['T5 FWD','T5 AWD','T5 Dynamic FWD','T5 Dynamic AWD','T5 Premier FWD','T5 Premier AWD','T5 Platinum FWD','T5 Platinum AWD','T6 R-Design AWD'];
     const volvoV60CrossCountryTrim = ['T5 AWD','Platinum'];
-    const volvoV90Trim = ['T6 AWD'];
+    const volvoV90Trim = ['T5 Inscription FWD','T6 Inscription AWD','T5 R-Design FWD','T6 R-Design AWD'];
     const volvoV90CrossCountryTrim = ['T6 AWD'];
     const volvoXC60Trim = ['T5 Dynamic FWD','T5 Dynamic AWD','T6 Dynamic AWD','T5 Inscription FWD','T5 Inscription AWD','T6 Inscription AWD','T6 R-Design AWD'];
     const volvoXC90Trim = ['T5 Momentum FWD','T5 Momentum AWD','T6 Momentum AWD','T6 Inscription AWD','T8 Inscription','T5 R-Design FWD','T5 R-Design AWD','T6 R-Design AWD','T8 R-Design', 'T8 Excellence'];
@@ -421,6 +426,70 @@ const packagesArray = [
       [passionRed,'V60 Cross Country T5 Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V60CrossCountry/platinum/passionRed.jpg',brochureArray[4]],
       [richJavaMetallic,'V60 Cross Country T5 Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V60CrossCountry/platinum/richJavaMetallic.jpg',brochureArray[4]],
       [twilightBronzeMetallic,'V60 Cross Country T5 Platinum AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V60CrossCountry/platinum/twilightBronzeMetallic.jpg',brochureArray[4]]
+    ];
+
+    const V90T5InscriptionFWD = [
+      [blackStone,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/blackStone.jpg',brochureArray[7]],
+      [brightSilverMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/brightSilverMetallic.jpg',brochureArray[7]],
+      [crystalWhiteMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/crystalWhiteMetallic.jpg',brochureArray[7]],
+      [denimBlueMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/denimBlueMetallic.jpg',brochureArray[7]],
+      [electricSilverMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/electricSilverMetallic.jpg',brochureArray[7]],
+      [iceWhite,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/iceWhite.jpg',brochureArray[7]],
+      [luminousSandMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/luminousSandMetallic.jpg',brochureArray[7]],
+      [mapleBrownMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/mapleBrownMetallic.jpg',brochureArray[7]],
+      [musselBlueMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/musselBlueMetallic.jpg',brochureArray[7]],
+      [onyxBlackMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/onyxBlackMetallic.jpg',brochureArray[7]],
+      [osmiumGreyMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/osmiumGreyMetallic.jpg',brochureArray[7]],
+      [savileGreyMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/savileGreyMetallic.jpg',brochureArray[7]],
+      [twilightBronzeMetallic,'V90 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t5Fwd/twilightBronzeMetallic.jpg',brochureArray[7]]
+    ];
+    const V90T6InscriptionAWD = [
+      [blackStone,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/blackStone.jpg',brochureArray[7]],
+      [brightSilverMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/brightSilverMetallic.jpg',brochureArray[7]],
+      [crystalWhiteMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/crystalWhiteMetallic.jpg',brochureArray[7]],
+      [denimBlueMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/denimBlAWDueMetallic.jpg',brochureArray[7]],
+      [electricSilverMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/electricSilverMetallic.jpg',brochureArray[7]],
+      [iceWhite,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/iceWhite.jpg',brochureArray[7]],
+      [luminousSandMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/luminousSandMetallic.jpg',brochureArray[7]],
+      [mapleBrownMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/mapleBrownMetallic.jpg',brochureArray[7]],
+      [musselBlueMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/musselBlueMetallic.jpg',brochureArray[7]],
+      [onyxBlackMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/onyxBlackMetallic.jpg',brochureArray[7]],
+      [osmiumGreyMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/osmiumGreyMetallic.jpg',brochureArray[7]],
+      [savileGreyMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/savileGreyMetallic.jpg',brochureArray[7]],
+      [twilightBronzeMetallic,'V90 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/inscription/t6Awd/twilightBronzeMetallic.jpg',brochureArray[7]]
+    ];
+    const V90T5RDesignFWD = [
+      [brightSilverMetallic,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/brightSilverMetallic.jpg',brochureArray[7]],
+      [burstingBlueMetallic,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/burstingBlueMetallic.jpg',brochureArray[7]],
+      [crystalWhiteMetallic,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/crystalWhiteMetallic.jpg',brochureArray[7]],
+      [electricSilverMetallic,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/electricSilverMetallic.jpg',brochureArray[7]],
+      [iceWhite,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/iceWhite.jpg',brochureArray[7]],
+      [onyxBlackMetallic,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/onyxBlackMetallic.jpg',brochureArray[7]],
+      [osmiumGreyMetallic,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/osmiumGreyMetallic.jpg',brochureArray[7]],
+      [passionRed,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/passionRed.jpg',brochureArray[7]],
+      [savileGreyMetallic,'V90 T5 R-Design FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t5Fwd/savileGreyMetallic.jpg',brochureArray[7]]
+    ];
+    const V90T6RDesignAWD = [
+      [brightSilverMetallic,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/brightSilverMetallic.jpg',brochureArray[7]],
+      [burstingBlueMetallic,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/burstingBlueMetallic.jpg',brochureArray[7]],
+      [crystalWhiteMetallic,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/crystalWhiteMetallic.jpg',brochureArray[7]],
+      [electricSilverMetallic,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/electricSilverMetallic.jpg',brochureArray[7]],
+      [iceWhite,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/iceWhite.jpg',brochureArray[7]],
+      [onyxBlackMetallic,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/onyxBlackMetallic.jpg',brochureArray[7]],
+      [osmiumGreyMetallic,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/osmiumGreyMetallic.jpg',brochureArray[7]],
+      [passionRed,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/passionRed.jpg',brochureArray[7]],
+      [savileGreyMetallic,'V90 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90/rdesign/t6Awd/savileGreyMetallic.jpg',brochureArray[7]]
+    ];
+
+    const V90CrossCountryT6AWD = [
+      [brightSilverMetallic,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/brightSilverMetallic.jpg',brochureArray[7]],
+      [crystalWhitePearl,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/crystalWhitePearl.jpg',brochureArray[7]],
+      [iceWhite,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/iceWhite.jpg',brochureArray[7]],
+      [magicBlueMetallic,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/magicBlueMetallic.jpg',brochureArray[7]],
+      [mapleBrownMetallic,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/mapleBrownMetallic.jpg',brochureArray[7]],
+      [onyxBlackMetallic,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/onyxBlackMetallic.jpg',brochureArray[7]],
+      [osmiumGreyMetallic,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/osmiumGreyMetallic.jpg',brochureArray[7]],
+      [twilightBronzeMetallic,'V90 Cross Country T6 AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/V90CrossCountry/t6Awd/twilightBronzeMetallic.jpg',brochureArray[7]]
     ];
 
     const XC60T5DynamicFWD = [
