@@ -1,127 +1,31 @@
-<!DOCTYPE html>
-    <html style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-      <head>
-        <meta charset="utf-8">
-      </head>
-      <body style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;line-height: 1;">
-        <center>
-            <div id="bodyContainer" style="margin: 0 auto;padding: 50px 0;border: 0;font-size: 13px;vertical-align: baseline;height: 100%;width: 100%;font-family: Arial, sans-serif;font-weight: normal;color: #000000;background-color: #003057;">
-              <table id="emailBody" style="margin: auto;padding: 0px;border: 0;font-size: 100%;vertical-align: baseline;border-collapse: collapse;border-spacing: 0;width: 650px;color: #000000;background-color: #ffffff;">
-                <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-                  <td style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-                    <table id="headerArea" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;border-collapse: collapse;border-spacing: 0;background-color: #000000;width: 650px;">
-                      <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-                        <td class="centered" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;text-align: center;">
-                          <a href="http://www.volvocarsramsey.com/" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;"><img src="http://ramseycarsnj.github.io/volvoPricingApp2017/inc/volvoLogo.png" alt="Ramsey Volvo" id="volvoLogo" style="margin: auto;padding: 20px 0;border: 0;font-size: 100%;vertical-align: baseline;width:57px;text-align: center;"></a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-                  <td style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-                    <table id="emailContent" style="margin: 0 auto;padding: 20px;border: 0;font-size: 100%;vertical-align: baseline;border-collapse: collapse;border-spacing: 0;background-color: #ffffff;color: #000000;width: 650px;">
-                      <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-                        <td style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
 
+<table id="pricingTable" style="margin: 0 auto;padding: 20px 0;border: 1px solid #000000;width: 640px;font-size: 18px;background-color:#fafafa;">
+<tr>
+  <td id="vehicleInfoDisplay" style="width: 350px">
+    <h2 style="margin: 0;padding: 10px 0 0 0px;border: 0;line-height: 1;color: #003057;font-family: Arial, sans-serif;font-weight: 900;text-align:center;font-size:30px">
+      A Special Offer For Your
+    </h2>
+    <h2 style="margin: 0;padding: 5px 0 0px 0px;border: 0;line-height: 1;color: #003057;font-family: Arial, sans-serif;font-weight: 700;font-size: 20px;text-align:center;">
+      2017 Volvo <span id="vehiclePreview" ></span>
+    </h2>
 
-          <p style="color:#000000;padding:20px 50px 0 50px;font-size: 18px;text-align:left;">Hello <span id="customerNameDisplay"></span>,</p>
-          <p style="color:#000000;padding:0 50px 0 50px;font-size:18px;text-align:left;">
-            Thank you for your interest in the 2017 Volvo <span id="vehicleRef1">No Vehicle Selected</span> from Ramsey Volvo.
-            <span id="statusDisplay"> We currently have this vehicle in stock!</span> Here's a price for the Volvo <span id="vehicleRef2">No Vehicle Selected</span> <br>(available until <span id="availableUntilDisplay">02/28/2017</span>)<br><br>
-
-          </p>
-          <table id="pricingTable" style="margin: 0 auto;padding: 20px 0;border: 0;width: 650px;font-size: 18px;background-color:#fafafa;">
-            <tbody><tr>
-              <td id="vehicleInfoDisplay" style="width: 350px">
-                <h4 style="margin: 0;padding: 0 0 0 50px;border: 0;line-height: 1;color: #003057;font-family: Arial, sans-serif;font-weight: 900;text-align:left;">2017 Volvo</h4>
-                <h2 id="vehiclePreview" style="margin: 0;padding: 5px 0 0px 50px;border: 0;line-height: 1;color: #003057;font-family: Arial, sans-serif;font-weight: 700;font-size: 20px;text-align:left;">No Vehicle Selected</h2>
-                <span id="stockDisplay" style="text-align:left;color:#000000;font-size:12px;line-height:1;
-                margin:0;padding:0 50px 0px 50px;border:0;"></span>
-
-                <h5 style="margin: 0;padding: 5px 0 0 50px;border: 0;line-height: 1.2;color: #000000;font-family: Arial, sans-serif;font-weight: 500;fontsize: 14px;">
-                  <span id="packagesDisplayHeading"></span>
-                  <span id="packagesDisplay"></span>
-                </h5>
-                <h5 id="transmissionDisplay" style="margin: 0;padding: 5px 0 0 50px;border: 0;line-height: 1;color: #000000;font-family: Arial, sans-serif;font-weight: 500;fontsize: 14px;"><strong>Transmission:</strong> Automatic</h5>
-                <div id="imgPreview">
-                  <img src="inc/fill.png" style="width: 325px;padding: 0;margin: 0;border: 0;">
-
-                </div>
-
-              </td>
-              <td id="pricingDisplay" style="width: 350px;vertical-align: top;text-align: right;margin: 0;border: 0;padding: 0;">
-                <div>
-                  <h4 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 500;color: #000000;font-size: 14px;">Your Quote</h4>
-                  <span id="finPrice"></span>
-                  <span id="orDisplay"></span>
-                  <span id="leasePriceDisplay"></span>
-                  <span id="termDisplay"></span>
-                  <span id="moneyDownDisplay"></span>
-                  <span id="mileageDisplay"></span>
-
-
-                  <span id="accessoriesDisplayHeading"></span>
-                  <ul id="accessoriesDisplay">
-
-                  </ul>
-                </div>
-              </td>
-            </tr>
-          </tbody></table>
-          <div id="contactButtons" style="width: 650px;margin:0 auto;padding:0 0 40px 0;border:0; text-align:center;background-color:#fafafa;">
-            <a href="#" style="text-decoration: none;color: #000000;border: 1px solid #000000;padding: 15px 50px;font-family: Arial, sans-serif;margin: 0 30px 0 0;" id="brochureLink">MORE INFORMATION</a>
-            <a href="tel:2013270070" style="text-decoration: none;color: #000000;border: 1px solid #000000;padding: 15px 75px;font-family: Arial, sans-serif;margin: 0 0 0 30px;">CONTACT US</a>
-          </div>
-
-      <p style="margin: 0;padding: 50px 50px 30px 50px;border: 0;font-size: 18px;vertical-align: baseline;line-height: 1.5;text-align: left;">
-        Here at Ramsey Volvo, we give you our <strong>Upfront Price</strong>. Our fees are the lowest in the area and we do not charge additional unnecessary fees like "Out of State Conveyance" or for "New Car Prep". Also, we make sure our customers know that Gap Insurance is optional, NOT necessary. If you have any questions about this vehicle or would like to come in for a test drive please let me know. If you are ready, I'd be happy to schedule a time for you to come get your new!
-        <br><br>
-        <span style="font-size:12px;">*Not responsible for typographical errors</span>
-      </p>
-      <p style="margin: 0;padding: 30px 50px 10px 50px;border: 0;font-size: 18px;vertical-align: baseline;line-height: 1.5;text-align: left;">
-        <br>
-        Sincerely, <br>
-        <br>
-
-        Ramsey Volvo E-Commerce Team<br>
-        E-Commerce Department<br>
-        Ramsey Volvo<br>
-        (888) 319-0377<br>
-        wecare@ramseyvolvo.com
-
-        <br>
-        <br>
-      </p>
-    </td>
-    </tr>
-    <tr style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;">
-    <td id="footer" style="margin: 0;padding: 30px;border: 0;font-size: 100%;vertical-align: baseline;text-align: center;background-color:#000000;">
-      <ul style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;">
-        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="http://www.facebook.com/RamseyVolvo/" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/facebookIcon.png" alt="facebook" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
-        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="http://twitter.com/RamseyVolvoNJ" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/twitterIcon.png" alt="twitter" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
-        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="http://www.youtube.com/ramseyvolvo" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/youtubeIcon.png" alt="youtube" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
-        <li style="margin: 0;padding: 5px;border: 0;font-size: 100%;vertical-align: baseline;list-style: none;display: inline;"><a href="http://www.instagram.com/ramseyvolvo/" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;"><img src="http://ramseycarsnj.github.io/subaruEmailBlastsJan2017/instagramIcon.png" alt="instagram" style="margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;width: 26px;"></a></li>
-      </ul>
-      <br>
-      <a href="http://www.volvocarsramsey.com/" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;">Ramsey Volvo</a>
-      <br>
-      <a href="http://www.volvocarsramsey.com/dealership/directions.htm" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;">905 Rt17s Ramsey, NJ</a>
-      <br>
-      <a href="tel:2013270070" style="margin: 0;padding: 0;border: 0;font-size: 16px;vertical-align: baseline;text-align: center;text-decoration: none;color: #ffffff;line-height: 1.3;">201.327.0070</a>
-      <br>
-      <br>
-
-
-    </td>
-    </tr>
-    </table>
-    </td>
-    </tr>
-    </table>
-
+    <div id="imgPreview" style=" margin: auto; text-align:center;">
+      <img src="inc/fill.png" style="width: 325px;padding: 0;margin: 0;border: 0;">
     </div>
-    </center>
-    </body>
-    </html>
-    
+
+    <h2 style="margin: 0;padding: 10px 20 0 20px;border: 0;line-height: 1;color: #003057;font-family: Arial, sans-serif;font-weight: 600;text-align:center;font-size:20px">
+      Volvo Cars Ramsey will beat your current price quote by <span id="finPrice"></span> <span id="vehicleFinMonthlyPrice"></span> .
+    </h2>
+
+
+<div id="contactButtons" style="width: 650px;margin:0 auto;padding:0 0 40px 0;border:0; text-align:center;background-color:#fafafa;">
+<a href="#" style="text-decoration: none;color: #000000;border: 1px solid #000000;padding: 15px 50px;font-family: Arial, sans-serif;margin: 0 30px 0 0;" id="brochureLink">MORE INFORMATION</a>
+<a href="tel:2013270070" style="text-decoration: none;color: #000000;border: 1px solid #000000;padding: 15px 75px;font-family: Arial, sans-serif;margin: 0 0 0 30px;">CONTACT US</a>
+
+<div id="finePrint" style="font-size:10px;text-align:center;padding: 60px 30px 20px 30px;">
+  Offer is valid until <span id="availableUntilDisplay"></span> on the <span id="vehicleRef1">No Vehicle Selected</span> with <span id="packagesDisplay"></span>, Stock Number: <span id="stockDisplay"></span> See dealer for full details
+</div>
+</div>
+</td>
+</tr>
+</table>

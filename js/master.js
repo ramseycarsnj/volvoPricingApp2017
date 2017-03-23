@@ -759,12 +759,16 @@ const packagesArray = [
     });
     // Writes input vehicle finance price to template
     $('#customerName').on('input',function(e){
-    document.querySelector('#customerNameDisplay').innerHTML = this.value;
+    if (document.querySelector('#customerName').value !== '') {
+      document.querySelector('#customerNameDisplay').innerHTML = this.value + ', t';
+    } else {
+      document.querySelector('#customerNameDisplay').innerHTML = 'T';
+    }
    });
     // Writes input vehicle finance price to template
     $('#vehicleFinPrice').on('input',function(e){
       if (document.getElementById('vehicleFinPrice').value !== '') {
-        document.querySelector('#finPrice').innerHTML = `<h1 style="text-align: right;margin: 0;border: 0;padding: 0 40px 0 0;line-height: 1;font-family: Arial, sans-serif;font-weight: 700;color: #000000;" id="">$${this.value}</h1>`;
+        document.querySelector('#finPrice').innerHTML = `$${this.value}`;
 
       } else {
           document.querySelector('#finPrice').innerHTML = '';
@@ -781,6 +785,7 @@ const packagesArray = [
    $('#priceGoodUntil').on('input',function(e){
    if (document.getElementById('priceGoodUntil').value !== "") {
      document.querySelector('#availableUntilDisplay').innerHTML = this.value;
+     document.querySelector('#availableUntilDisplay2').innerHTML = this.value;
    } else {
      document.querySelector('#availableUntilDisplay').innerHTML = lastday;
    }
