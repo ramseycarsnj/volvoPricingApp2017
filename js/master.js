@@ -535,54 +535,54 @@ const packagesArray = [
       [richJavaMetallic,'XC60 T6 Dynamic AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/dynamic/t6Awd/richJavaMetallic.jpg',brochureArray[5]]
     ];
     const XC60T5InscriptionFWD = [
-      [blackStone,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/blackStone.jpg',brochureArray[5]],
-      [brightSilverMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/brightSilverMetallic.jpg',brochureArray[5]],
-      [crystalWhitePearl,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/crystalWhitePearl.jpg',brochureArray[5]],
-      [flamencoRedMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/flamencoRedMetallic.jpg',brochureArray[5]],
-      [iceWhite,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/iceWhite.jpg',brochureArray[5]],
-      [luminousSandMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/luminousSandMetallic.jpg',brochureArray[5]],
-      [magicBlueMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/magicBlueMetallic.jpg',brochureArray[5]],
-      [musselBlueMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/musselBlueMetallic.jpg',brochureArray[5]],
-      [onyxBlackMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/onyxBlackMetallic.jpg',brochureArray[5]],
-      [osmiumGreyMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/osmiumGreyMetallic.jpg',brochureArray[5]],
-      [powerBlueMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/powerBlueMetallic.jpg',brochureArray[5]],
-      [richJavaMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Fwd/richJavaMetallic.jpg',brochureArray[5]]
+      [blackStone,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/blackStone.jpg',brochureArray[5]],
+      [brightSilverMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/brightSilverMetallic.jpg',brochureArray[5]],
+      [crystalWhitePearl,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/crystalWhitePearl.jpg',brochureArray[5]],
+      [flamencoRedMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/flamencoRedMetallic.jpg',brochureArray[5]],
+      [iceWhite,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/iceWhite.jpg',brochureArray[5]],
+      [luminousSandMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/XC60/inc/inscription/t5Fwd/luminousSandMetallic.jpg',brochureArray[5]],
+      [magicBlueMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/magicBlueMetallic.jpg',brochureArray[5]],
+      [musselBlueMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/musselBlueMetallic.jpg',brochureArray[5]],
+      [onyxBlackMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/onyxBlackMetallic.jpg',brochureArray[5]],
+      [osmiumGreyMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/osmiumGreyMetallic.jpg',brochureArray[5]],
+      [powerBlueMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/powerBlueMetallic.jpg',brochureArray[5]],
+      [richJavaMetallic,'XC60 T5 Inscription FWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Fwd/richJavaMetallic.jpg',brochureArray[5]]
     ];
     const XC60T5InscriptionAWD = [
-      [blackStone,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/blackStone.jpg',brochureArray[5]],
-      [brightSilverMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/brightSilverMetallic.jpg',brochureArray[5]],
-      [crystalWhitePearl,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/crystalWhitePearl.jpg',brochureArray[5]],
-      [flamencoRedMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/flamencoRedMetallic.jpg',brochureArray[5]],
-      [iceWhite,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/iceWhite.jpg',brochureArray[5]],
-      [luminousSandMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/luminousSandMetallic.jpg',brochureArray[5]],
-      [magicBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/magicBlueMetallic.jpg',brochureArray[5]],
-      [musselBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/musselBlueMetallic.jpg',brochureArray[5]],
-      [onyxBlackMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/onyxBlackMetallic.jpg',brochureArray[5]],
-      [osmiumGreyMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/osmiumGreyMetallic.jpg',brochureArray[5]],
-      [powerBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/powerBlueMetallic.jpg',brochureArray[5]],
-      [richJavaMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t5Awd/richJavaMetallic.jpg',brochureArray[5]]
+      [blackStone,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/blackStone.jpg',brochureArray[5]],
+      [brightSilverMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/XC60/inc/inscription/t5Awd/brightSilverMetallic.jpg',brochureArray[5]],
+      [crystalWhitePearl,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/crystalWhitePearl.jpg',brochureArray[5]],
+      [flamencoRedMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/flamencoRedMetallic.jpg',brochureArray[5]],
+      [iceWhite,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/XC60/t5Awd/iceWhite.jpg',brochureArray[5]],
+      [luminousSandMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/XC60/inc/inscription/t5Awd/luminousSandMetallic.jpg',brochureArray[5]],
+      [magicBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/magicBlueMetallic.jpg',brochureArray[5]],
+      [musselBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/musselBlueMetallic.jpg',brochureArray[5]],
+      [onyxBlackMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/onyxBlackMetallic.jpg',brochureArray[5]],
+      [osmiumGreyMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/osmiumGreyMetallic.jpg',brochureArray[5]],
+      [powerBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/powerBlueMetallic.jpg',brochureArray[5]],
+      [richJavaMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t5Awd/richJavaMetallic.jpg',brochureArray[5]]
     ];
     const XC60T6InscriptionAWD = [
-      [blackStone,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/blackStone.jpg',brochureArray[5]],
-      [brightSilverMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/brightSilverMetallic.jpg',brochureArray[5]],
-      [crystalWhitePearl,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/crystalWhitePearl.jpg',brochureArray[5]],
-      [flamencoRedMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/flamencoRedMetallic.jpg',brochureArray[5]],
-      [iceWhite,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/iceWhite.jpg',brochureArray[5]],
-      [luminousSandMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/luminousSandMetallic.jpg',brochureArray[5]],
-      [magicBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/magicBlueMetallic.jpg',brochureArray[5]],
-      [musselBlueMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/musselBlueMetallic.jpg',brochureArray[5]],
-      [onyxBlackMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/onyxBlackMetallic.jpg',brochureArray[5]],
-      [osmiumGreyMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/osmiumGreyMetallic.jpg',brochureArray[5]],
-      [powerBlueMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/powerBlueMetallic.jpg',brochureArray[5]],
-      [richJavaMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/inscription/t6Awd/richJavaMetallic.jpg',brochureArray[5]]
+      [blackStone,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/blackStone.jpg',brochureArray[5]],
+      [brightSilverMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/brightSilverMetallic.jpg',brochureArray[5]],
+      [crystalWhitePearl,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/crystalWhitePearl.jpg',brochureArray[5]],
+      [flamencoRedMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/flamencoRedMetallic.jpg',brochureArray[5]],
+      [iceWhite,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/iceWhite.jpg',brochureArray[5]],
+      [luminousSandMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/luminousSandMetallic.jpg',brochureArray[5]],
+      [magicBlueMetallic,'XC60 T5 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/magicBlueMetallic.jpg',brochureArray[5]],
+      [musselBlueMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/musselBlueMetallic.jpg',brochureArray[5]],
+      [onyxBlackMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/onyxBlackMetallic.jpg',brochureArray[5]],
+      [osmiumGreyMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/osmiumGreyMetallic.jpg',brochureArray[5]],
+      [powerBlueMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/powerBlueMetallic.jpg',brochureArray[5]],
+      [richJavaMetallic,'XC60 T6 Inscription AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/inscription/t6Awd/richJavaMetallic.jpg',brochureArray[5]]
     ];
-    const xc60T6RDesignAWD = [
-      [burstingBlueMetallic,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/t6Awd/burstingBlueMetallic.jpg',brochureArray[5]],
-      [crystalWhitePearl,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/t6Awd/crystalWhitePearl.jpg',brochureArray[5]],
-      [electricSilverWhite,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/t6Awd/electricSilverWhite.jpg',brochureArray[5]],
-      [onyxBlackMetallic,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/t6Awd/onyxBlackMetallic.jpg',brochureArray[5]],
-      [osmiumGreyMetallic,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/t6Awd/osmiumGreyMetallic.jpg',brochureArray[5]],
-      [passionRed,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/t6Awd/passionRed.jpg',brochureArray[5]]
+    const XC60T6RDesignAWD = [
+      [burstingBlueMetallic,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/rdesign/t6Awd/burstingBlueMetallic.jpg',brochureArray[5]],
+      [crystalWhitePearl,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/rdesign/t6Awd/crystalWhitePearl.jpg',brochureArray[5]],
+      [electricSilverMetallic,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/rdesign/t6Awd/electricSilverMetallic.jpg',brochureArray[5]],
+      [onyxBlackMetallic,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/rdesign/t6Awd/onyxBlackMetallic.jpg',brochureArray[5]],
+      [osmiumGreyMetallic,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/rdesign/t6Awd/osmiumGreyMetallic.jpg',brochureArray[5]],
+      [passionRed,'XC60 T6 R-Design AWD','http://ramseycarsnj.github.io/volvoPricingApp2017/inc/XC60/rdesign/t6Awd/passionRed.jpg',brochureArray[5]]
     ];
 
     const XC90T5MomentumFWD = [
